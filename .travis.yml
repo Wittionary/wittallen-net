@@ -1,3 +1,5 @@
+language: python
+
 deploy:
   provider: lambda
   function_name: wittallen-net

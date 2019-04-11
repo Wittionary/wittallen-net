@@ -1,5 +1,14 @@
 language: python
 
+python: "3.6"
+
+branches:
+  only:
+  - master
+
+allow_failures:
+  python: "3.6"
+  
 deploy:
   provider: lambda
   function_name: wittallen-net

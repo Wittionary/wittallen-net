@@ -9,6 +9,9 @@ branches:
 allow_failures:
   python: "3.6"
 
+install: requirements.txt
+script: skip
+
 jobs:
   include:
     stage: Deploy to Production

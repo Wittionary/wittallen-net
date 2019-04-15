@@ -1,10 +1,7 @@
 language: python
-
-python: "3.6"
-
+python: '3.6'
 install: skip
 script: skip
-
 jobs:
   include:
     stage: Deploy to Production
@@ -17,8 +14,7 @@ jobs:
       handler_name: lambda_function.lambda_handler
       access_key_id: AKIA2OBDGQFOK5EBOHLZ
       secret_access_key:
-        secure: R6Kyqs1o5w/9G1a8WUtN45YJW5QGr3NsjJYcMSKaorAE2vopVZDMX1FFGB9hT7ne4ln4qsl29FEi2aezDGNNNXT+EF79+Jf8JZ5j8QDDt476OyJ2/t5n4JR1Kja7KFQjsu+6a/rQP3zA/6GVE0c+x/rN1JwnxhnAyKDL636ERBNJJhiM8YWSckeGimOiYRJ2bpQuu1vlUJkYSUV+wfdgLXq9kZEz43/YUK9OyjvjhL94ie3yKQYLGM3j7nCbBC8VKR2iVNlGljAetuC6ATM/EQRBgqjYRmKqJass0Wd6NcOl2M2RrLuVnn+7/gqO4qX4OfgcjC9Vf0MoCyZazqk6W5MbanyL3gOLKIY5eLsm0XZddgBBtgHf4RsUE0P1Rg7JNor2QxVqsG+4a4NzHMUuNelUrOXEslP3YUbLL77sKfEWyd+R8RmjEmPVXNluRK3YahIplPA8yPndZLdFyWuawFV6mkKfcdB7M/R4ke6L7Bo87UpvdrNQWAUgXFKf5W6ZqhURA4hv4WW1+z7xuWN6rKA8bCD/dBAII3SE3kLZCPFKyHGyteN9u9MZGXbTZicJlgbZ79S7MWAZWdnosh7y1/Ai+O4wnDZcB/msecKyAwvuPRnZYYw8+Qwg0PcbFS02bONAQDnjMWut7MPTnnbZEex2nNGtwD+c3J3/XMchE1k=
+        secure: Yevf4A6ly4V2RNXfQpAOz+x8gZI2ujy6piBJ9DyPw4m41VUZMMVFb/2eOSyr0+P693Wtsj6JwEUlz/Aw3tQMUh3WLs6CvSCOClIYu3L4AER8PT7rwXKJrMSndBMr4mqIDk71sfghGyPMGq8z3bfNJMALejrY2CBnURkrQnjZD7f0Orzy/CM2p8TSpg1G9bqqPxjY/yuvoQzlKWMXqyXrnD5sFA44D3/6113NyPSZ7NAEiKoVRkyGxi6HcT0pqt4uIpKH5OMWK9CTTRIWPLjtKtRWgSH7rTP9IKk7bdri3RSQyIic/xdaiwCnb+kwNmZZ31Nl9Xg4qX/InISlGNFAegjCUU7Iryrs77RPvAvTpOHN2IE0VuB+YRE2wysmCC3Kr7ksJ+4Ej3WrHS85FTvcSllxjnLiS3c2VSzaqChvqK6xHcEVJLnNrJkH2mHPZZBMyA2lbZ5myzvtcoOIgi4nUmQNSysqp/BKfzADKPWs0J3m6Zs09Uq8LswauNXcq/Lsem/AoghcY/ameGltgXFew9XDGxbyjAxmt9BMJU0BeJLV9yFfoSwfby9Tun5E389bQjjF/bkLai52P3PiengjVzIjanxBD8wgdW7PUc/661VRhFMD5wPOkKb71yyp1H1Ts6NwatjQWTfvzjd5cWn1j+Qu3w0/ZejTKzb7Me7QO6Q=
       on:
         all_branches: true
-
-    
+  

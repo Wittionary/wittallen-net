@@ -17,9 +17,6 @@ jobs:
       handler_name: lambda_function.lambda_handler
       access_key_id: AKIA2OBDGQFOK5EBOHLZ
       secret_access_key: {dd.secure}
-      on:
-        branches:
-          only:
-            - master
+      
     dd:
       secure: R6Kyqs1o5w/9G1a8WUtN45YJW5QGr3NsjJYcMSKaorAE2vopVZDMX1FFGB9hT7ne4ln4qsl29FEi2aezDGNNNXT+EF79+Jf8JZ5j8QDDt476OyJ2/t5n4JR1Kja7KFQjsu+6a/rQP3zA/6GVE0c+x/rN1JwnxhnAyKDL636ERBNJJhiM8YWSckeGimOiYRJ2bpQuu1vlUJkYSUV+wfdgLXq9kZEz43/YUK9OyjvjhL94ie3yKQYLGM3j7nCbBC8VKR2iVNlGljAetuC6ATM/EQRBgqjYRmKqJass0Wd6NcOl2M2RrLuVnn+7/gqO4qX4OfgcjC9Vf0MoCyZazqk6W5MbanyL3gOLKIY5eLsm0XZddgBBtgHf4RsUE0P1Rg7JNor2QxVqsG+4a4NzHMUuNelUrOXEslP3YUbLL77sKfEWyd+R8RmjEmPVXNluRK3YahIplPA8yPndZLdFyWuawFV6mkKfcdB7M/R4ke6L7Bo87UpvdrNQWAUgXFKf5W6ZqhURA4hv4WW1+z7xuWN6rKA8bCD/dBAII3SE3kLZCPFKyHGyteN9u9MZGXbTZicJlgbZ79S7MWAZWdnosh7y1/Ai+O4wnDZcB/msecKyAwvuPRnZYYw8+Qwg0PcbFS02bONAQDnjMWut7MPTnnbZEex2nNGtwD+c3J3/XMchE1k=

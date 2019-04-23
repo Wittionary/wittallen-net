@@ -12,7 +12,7 @@ jobs:
       role: arn:aws:iam::717333365084:role/Travis-CI-Lambda-Deploy
       runtime: python3.7
       handler_name: lambda_function.lambda_handler
-      access_key_id: AKIA2OBDGQFOFER75CNJ
+      access_key_id:  AKIAIG5ZR5P6ZCLCOWSQ
       secret_access_key: $AWS_SECRET_ACCESS_KEY
       on:
         all_branches: true

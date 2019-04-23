@@ -13,7 +13,6 @@ jobs:
       runtime: python3.7
       handler_name: lambda_function.lambda_handler
       access_key_id: AKIA2OBDGQFOFER75CNJ
-      secret_access_key:
-        secure: oZNhURxsw8H44XWexGyPKEsZMT2OsSD2L9/bDkRJyhic2aKGhTHAFBSfthKqFjf5xn65FwaJSMv6A9YONmr2Ws8z+xsM4C22BsNmx66IMrvBLcqnW0WOUYVFBRMWHGf4R2DSa9lfPFkNuZ3N3XjSx3vEdz/coCPPfrQJC5NSfeLBh+aqOICbftMlDKmdQRrFkR8ryM8/uT+vdBWvGNNd+q9AWQtaIxrb9XmovqDp/AhVt1kE700cP8uZp7cKXi1ho9mq1j1V9EY/7XmjOr0yEPIePZDxAOqkWkZ2HnnaUivDCtODBR3rOlkpMh2wLHBaVsg4vfo5ouNC/ZPDtS+AbIB5Erc1f4ynp8rtzFC8mbJIh0f1XGQt0IVNJiuCJoUGiLg1tcEGnW644/B6tcnLNYyLSxJrwMf27XFPrc7s/vSCUull/PeG59PidvWDOY/GFUu1FQqG7+C/ZvBYkkGBwsMG6K1P2YbUBcv2kJoFa3RUmDxWV+RhiEv6etuqiJ7Xx/Xbn1PK99u+jSxCLL/KAiWs06JvDiFsCb0ZVBJ34jS2NVzGDofi8XX1/KIfTEZDD9YkGxRTLG0696iBCKJH6VIWdq3R4rbd9Kplh5AMWKkj4y8ju1yNEdUarZVHHn8LBGhCcOmxlMFBHledrKg501hZEgFniW2VutWIfHwbvS8=
+      secret_access_key: $AWS_SECRET_ACCESS_KEY
       on:
         all_branches: true

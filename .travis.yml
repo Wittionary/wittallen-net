@@ -13,7 +13,7 @@ jobs:
       runtime: python3.6
       module_name: lambda_function
       handler_name: lambda_handler
-      access_key_id:  AKIA2OBDGQFOFER75CNJ
+      access_key_id:   AKIA2OBDGQFOM7VIFRUD
       secret_access_key: $AWS_SECRET_ACCESS_KEY
       on:
         all_branches: true

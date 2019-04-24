@@ -9,9 +9,9 @@ jobs:
       provider: lambda
       function_name: wittallen-net
       region: us-east-1
-      role: arn:aws:iam::717333365084:role/Travis-CI-Lambda-Deploy
+      role: arn:aws:iam::717333365084:role/service-role/wittallen-net-role-sm6fn87h
       runtime: python3.6
-      module_name: wittallen-net
+      module_name: lambda_function
       handler_name: lambda_handler
       access_key_id:  AKIAIG5ZR5P6ZCLCOWSQ
       secret_access_key: $AWS_SECRET_ACCESS_KEY

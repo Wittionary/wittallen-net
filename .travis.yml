@@ -11,7 +11,8 @@ jobs:
       region: us-east-1
       role: arn:aws:iam::717333365084:role/Travis-CI-Lambda-Deploy
       runtime: python3.6
-      handler_name: lambda_function.lambda_handler
+      module_name: wittallen-net
+      handler_name: lambda_handler
       access_key_id:  AKIAIG5ZR5P6ZCLCOWSQ
       secret_access_key: $AWS_SECRET_ACCESS_KEY
       on:

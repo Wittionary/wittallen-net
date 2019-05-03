@@ -11,8 +11,8 @@ jobs:
       region: us-east-1
       role: arn:aws:iam::717333365084:role/service-role/wittallen-net-role-sm6fn87h
       runtime: python3.6
-      module_name: lambda_function
-      handler_name: lambda_handler
+      module_name: epsagon
+      handler_name: wrapper
       access_key_id:   AKIA2OBDGQFOM7VIFRUD
       secret_access_key: $AWS_SECRET_ACCESS_KEY
       on:

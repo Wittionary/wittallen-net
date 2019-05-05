@@ -2,7 +2,7 @@ import json
 
 def lambda_handler(event, context):
     # TODO implement
-    homepage = open("testing.html","r")
+    homepage = open("index.html","r")
     index = homepage.read()
     homepage.close()
     

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>LOGOS and TITLES</header>
+    
+    <div class="row">
+            <div class="col-12"><!-- Header -->
+                <header>LOGOS and TITLES</header>
+            </div>
+    </div>
+    
     <main>
     <head>
         <title>witt portfolio</title>
@@ -9,39 +15,118 @@
 
         <!------------------------------------ START CSS -->
         <style>
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
         body {
             background-color: #394950;
             
         }
-        p, div, ul, li, details, header, footer, h1, h2, h3, h4, h5, h6 {
+        * {
             color: #ddc8bc;
+            box-sizing: border-box;
         }
-        
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+
+        @media only screen and (min-width: 600px) {
+        /* For tablets: */
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+        }
+
+        @media only screen and (min-width: 768px) {
+        /* For desktop: */
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #57707a;
+        }
+
+        .nav {
+            display: inline;
+        }
+        li a {
+            
+            color:#62cdd1;
+            
+            
+        }
         </style>
         <!------------------------------------ END CSS -->
     </head>
     <body>
-        <details>
-            <summary>I know things</summary>
-            <ul>
-                <li>AWS Lambda</li>
-                <li>Python</li>
-                <li>Powershell</li>
-            </ul>
-        </details>
-        <p>
-            <h3>I'm Witt</h3><br>
-            Lifelong learner, tinkerer, and optimizer
-        </p>
-        <p>
-            (bullet points of what I’ve done and like to do)
-        </p>
-        <p>
-            Links: <a href="https://github.com/Wittionary" target="_blank">github</a>,
-            <a href="https://twitter.com/wittionary" target="_blank">twitter</a>,
-            <a href="https://leftie.io" target="_blank">blog</a>
-        </p>
         
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h3>I'm Witt</h3><br>
+                Lifelong learner, tinkerer, and optimizer
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <ul class="navbar">
+                    <li class="nav"><a href="#blurb">Paragraph blurb</a></li>
+                    <li class="nav"><a href="#projects">Skills and projects</a></li>
+                    <li class="nav"><a href="#contact">Contact icon</a></li>
+                </ul>
+                <br>
+                
+                <p>
+                    (bullet points of what I’ve done and like to do)
+                </p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12"><!-- Footer -->
+                Links: <a href="https://github.com/Wittionary" target="_blank">github</a>,
+                <a href="https://twitter.com/wittionary" target="_blank">twitter</a>,
+                <a href="https://leftie.io" target="_blank">blog</a>
+            </div>
+        </div>
+                
     </body>
     </main>
     <footer>All rights reserved and all that</footer>

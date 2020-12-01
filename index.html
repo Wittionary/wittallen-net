@@ -111,6 +111,17 @@
             padding: 15px;
             padding-top: 100px;
         }
+
+        @counter-style repeating-emoji {
+        system: cyclic;
+        symbols: "\1F916" "\1F50E" "\1F4AA\1F3FD";
+        suffix: " ";
+        }
+
+        .repeating-counter-rule {
+        list-style-type: repeating-emoji;
+        }
+
         </style>
         <!------------------------------------ END CSS -->
     </head>
@@ -121,9 +132,9 @@
             <div class="col-6 center">
                 <div class="center-block">
                     <h1>I'm Witt 💾</h1><br>
-                    Witt Allen. I work on an infrastructure team. I spend my time
-                    <ul type="bullet">
-                        <li>automating repetitive tasks with,</li>
+                    Witt Allen. I work on an infrastructure team. During the day, I spend my time
+                    <ul class="repeating-counter-rule">
+                        <li>automating repetitive tasks with Powershell,</li>
                         <li>building monitoring to increase systems observability,</li>
                         <li>engineering systems to be resilient.</li>
                     </ul>

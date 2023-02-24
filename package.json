@@ -1,0 +1,17 @@
+{
+  "name": "wittallen-net",
+  "version": "1.0.0",
+  "description": "Planning to use 11ty and TailwindCSS to make a pretty, FAST site that isn't a pain to manage or update.\r 🤞",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "serve": "npx eleventy --serve"
+  },
+  "keywords": [],
+  "author": "Witt Allen @wittionary",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}

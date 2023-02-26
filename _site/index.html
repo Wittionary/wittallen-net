@@ -1,18 +1,249 @@
-<!doctype html>
-<head>
-    <title>Page title</title>
-    <style>
-        body {
-    background-color: slategray
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="row">
+    <div class="col-12"><!-- Header -->
+        <header></header>
+    </div>
+</div>
+
+<main>
+
+    <head>
+        <title>Witt Allen 💾</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer data-domain="wittallen.net" src="https://plausible.io/js/script.js"></script>
+
+        <!------------------------------------ START CSS -->
+        <style>
+            html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+    background-color: #293135;
+
+}
+
+* {
+    color: #e7e6e6;
+    box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 1px;
+    /*border: 1px solid red;*/
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #57707a;
+}
+
+.center-block {
+    margin: 0 auto;
+    width: 415px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.nav {
+    display: inline;
+}
+
+a {
+    color: #62cdd1;
+}
+
+footer {
+    position: relative;
+    bottom: 5px;
+    padding: 15px;
+    padding-top: 100px;
+}
+
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F916" "\1F50E" "\1F4AA\1F3FD";
+    suffix: " ";
+}
+
+.repeating-counter-rule {
+    list-style-type: repeating-emoji;
 }
 
 
+        </style>
+        <!------------------------------------ END CSS -->
+    </head>
 
-    </style>
-</head>
+    <body>
 
-<body>
-    <p>Hi there, friendo</p>
-    <h1>Well, now our eyes are no longer bleeding.</h1>
-    <h2>Let us get to work.</h2>
-</body>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 center">
+                <div class="center-block">
+                    <h1>I'm Witt 💾</h1><br>
+                    Witt Allen. I work on an infrastructure team. During the day, I spend my time
+                    <ul class="repeating-counter-rule">
+                        <li>automating repetitive tasks with Powershell,</li>
+                        <li>building monitoring to increase systems observability,</li>
+                        <li>engineering systems to be resilient.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <ul class="navbar">
+                </ul>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                Contact me via <a href="https://twitter.com/wittionary" target="_blank">twitter</a> or email
+                (<a href="mailto:witt.allen@protonmail.com?subject=via%20wittallen.net&body=I%20came%20across%20your%20personal%20site%20and..."
+                    target="_blank" alt="mailto">mailto</a>),
+                peruse my projects on <a href="https://github.com/Wittionary" target="_blank">github</a>,
+                or check out this <a href="https://leftie.io" target="_blank">blog</a>.
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+    </body>
+</main>
+
+<div class="row">
+    <div class="col-3"></div><!-- Footer -->
+    <div class="col-6">
+        <small>
+            <footer class="center-text" alt="This belongs at the bottom">All rights reserved and all that.</footer>
+        </small>
+    </div>
+    <div class="col-3"></div>
+</div>
+
+</html>

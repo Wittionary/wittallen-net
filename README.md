@@ -10,4 +10,6 @@ npx @11ty/eleventy
 Serve it up at [localhost](http://localhost:8080/)
 ```bash
 npx @11ty/eleventy --serve
+# or 
+npm run serve
 ```

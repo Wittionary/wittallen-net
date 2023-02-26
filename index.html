@@ -1,13 +1,76 @@
-<!doctype html>
-<head>
-    <title>Page title</title>
-    <style>
-        {% include "style.css" %}
-    </style>
-</head>
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-    <p>Hi there, friendo</p>
-    <h1>Well, now our eyes are no longer bleeding.</h1>
-    <h2>Let us get to work.</h2>
-</body>
+<div class="row">
+    <div class="col-12"><!-- Header -->
+        <header></header>
+    </div>
+</div>
+
+<main>
+
+    <head>
+        <title>Witt Allen 💾</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer data-domain="wittallen.net" src="https://plausible.io/js/script.js"></script>
+
+        <!------------------------------------ START CSS -->
+        <style>
+            {% include "style.css" %}
+        </style>
+        <!------------------------------------ END CSS -->
+    </head>
+
+    <body>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 center">
+                <div class="center-block">
+                    <h1>I'm Witt 💾</h1><br>
+                    Witt Allen. I work on an infrastructure team. During the day, I spend my time
+                    <ul class="repeating-counter-rule">
+                        <li>automating repetitive tasks with Powershell,</li>
+                        <li>building monitoring to increase systems observability,</li>
+                        <li>engineering systems to be resilient.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <ul class="navbar">
+                </ul>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                Contact me via <a href="https://twitter.com/wittionary" target="_blank">twitter</a> or email
+                (<a href="mailto:witt.allen@protonmail.com?subject=via%20wittallen.net&body=I%20came%20across%20your%20personal%20site%20and..."
+                    target="_blank" alt="mailto">mailto</a>),
+                peruse my projects on <a href="https://github.com/Wittionary" target="_blank">github</a>,
+                or check out this <a href="https://leftie.io" target="_blank">blog</a>.
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+    </body>
+</main>
+
+<div class="row">
+    <div class="col-3"></div><!-- Footer -->
+    <div class="col-6">
+        <small>
+            <footer class="center-text" alt="This belongs at the bottom">All rights reserved and all that.</footer>
+        </small>
+    </div>
+    <div class="col-3"></div>
+</div>
+
+</html>

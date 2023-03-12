@@ -1,6 +1,6 @@
 {
   "name": "wittallen-net",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Planning to use 11ty and TailwindCSS to make a pretty, FAST site that isn't a pain to manage or update.\r 🤞",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,8 @@
     "@11ty/eleventy": "^2.0.0"
   },
   "dependencies": {
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-footnote": "^3.0.3"
   }
 }

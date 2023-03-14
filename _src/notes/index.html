@@ -1,0 +1,9 @@
+---
+layout: base.njk
+---
+
+<ul>
+    {%- for post in collections.notes -%}
+    <li><a href="{{ post.url }}">{{ post.url }}</a></li>
+    {%- endfor -%}
+</ul>

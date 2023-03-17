@@ -1,3 +1,7 @@
+---
+title: recipe baked salmon
+---
+
 **Category:** [[recipe]]
 **Source:** [Well Plated](https://www.wellplated.com/baked-salmon-in-foil/)
 

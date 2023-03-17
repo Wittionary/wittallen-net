@@ -3,6 +3,6 @@ layout: base.njk
 ---
 
 <article>
-    {{content}}
+    {{ content | safe }}
 </article>
 {% include 'backlinks.html' %}

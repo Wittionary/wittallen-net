@@ -27,7 +27,7 @@
         
         "Cross-Origin-Embedder-Policy": "require-corp",
         "Cross-Origin-Opener-Policy-Report-Policy": "same-origin",
-        "Cross-Origin-Resource-Policy": "cross-origin",
+        "Cross-Origin-Resource-Policy-Report-Policy": "cross-origin",
         "server": "no-thanks",
         "X-Frame-Options": "SAMEORIGIN"
     },

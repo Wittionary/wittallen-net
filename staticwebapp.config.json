@@ -26,8 +26,8 @@
         "permissions-policy": "microphone=(), camera=(), geolocation=(), display-capture=()",
         
         "Cross-Origin-Embedder-Policy": "require-corp",
-        "Cross-Origin-Opener-Policy-Report-Policy": "same-origin",
-        "Cross-Origin-Resource-Policy-Report-Policy": "cross-origin",
+        "Cross-Origin-Opener-Policy-Report-Only": "same-origin",
+        "Cross-Origin-Resource-Policy-Report-Only": "cross-origin",
         "server": "no-thanks",
         "X-Frame-Options": "SAMEORIGIN"
     },

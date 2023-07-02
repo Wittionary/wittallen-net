@@ -21,9 +21,9 @@
         }
     },
     "globalHeaders": {
+
         
         
-        "content-security-policy": "default-src https:; style-src https://wittallen.net 'unsafe-inline'; script-src https://wittallen.net https://plausible.io; img-src https://wittallen.net data:; font-src https://wittallen.net https://fonts.googleapis.com https://fonts.gstatic.com;",
         "permissions-policy": "microphone=(), camera=(), geolocation=(), display-capture=()",
         
         

@@ -21,12 +21,15 @@
         }
     },
     "globalHeaders": {
-        "content-security-policy": "default-src https:; script-src https://plausible.io; font-src https://*.provisions.group https://fonts.googleapis.com https://fonts.gstatic.com;",
+        "Access-Control-Allow-Origin": "https://plausible.io",
+        "content-security-policy": "default-src https:; style-src: ;script-src https://plausible.io; font-src https://*.provisions.group https://fonts.googleapis.com https://fonts.gstatic.com;",
         "permissions-policy": "microphone=(), camera=(), geolocation=(), display-capture=()",
-        "X-Frame-Options": "SAMEORIGIN",
+        
         "Cross-Origin-Embedder-Policy": "require-corp",
         "Cross-Origin-Opener-Policy": "same-origin",
-        "Cross-Origin-Resource-Policy": "same-origin"
+        "Cross-Origin-Resource-Policy": "same-origin",
+        "server": "no-thanks",
+        "X-Frame-Options": "SAMEORIGIN"
     },
     "mimeTypes": {
         ".json": "text/json"

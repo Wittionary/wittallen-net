@@ -25,10 +25,9 @@
         "content-security-policy": "default-src https:; style-src https://wittallen.net 'unsafe-inline'; script-src https://wittallen.net https://plausible.io; img-src https://wittallen.net data:; font-src https://wittallen.net https://fonts.googleapis.com https://fonts.gstatic.com;",
         "permissions-policy": "microphone=(), camera=(), geolocation=(), display-capture=()",
         
-        "Cross-Origin-Embedder-Policy": "require-corp",
+        
         "Cross-Origin-Opener-Policy-Report-Only": "same-origin",
         "Cross-Origin-Resource-Policy-Report-Only": "cross-origin",
-        "server": "no-thanks",
         "X-Frame-Options": "SAMEORIGIN"
     },
     "mimeTypes": {

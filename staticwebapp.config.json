@@ -22,7 +22,7 @@
         "Cross-Origin-Embedder-Policy-Report-Only": "require-corp",
         "Cross-Origin-Opener-Policy-Report-Only": "same-origin",
         "Cross-Origin-Resource-Policy-Report-Only": "cross-origin",
-        
+        "X-Frame-Options": "SAMEORIGIN"
     },
     "mimeTypes": {
         ".json": "text/json"

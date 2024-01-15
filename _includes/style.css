@@ -141,6 +141,8 @@ body {
 .center-block {
     margin: 0 auto;
     width: 415px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .center-text {

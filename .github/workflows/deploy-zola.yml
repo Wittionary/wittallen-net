@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - port-to-zola
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:

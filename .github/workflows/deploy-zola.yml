@@ -27,7 +27,7 @@ jobs:
           root: wittallen-com
 
       - name: 'Check File Existence'
-        uses: thebinaryfelix/check-file-existence-action@v1
+        uses: andstor/file-existence-action@v3
         with:
           files: '/wittallen-com/public/index.html'
 

@@ -13,3 +13,13 @@ npx @11ty/eleventy --serve
 # or 
 npm run serve
 ```
+---
+Now using Zola.
+For development, you can get it running like this:
+```powershell
+# nav to site folder
+cd wittallen-com/
+zola serve
+```
+
+Then open [localhost:1111](http://127.0.0.1:1111)

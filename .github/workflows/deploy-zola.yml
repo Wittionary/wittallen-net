@@ -3,13 +3,13 @@ name: Deploy Zola CI/CD
 on:
   push:
     branches:
+      - main
       - master
-      - port-to-zola
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
+      - main
       - master
-      - port-to-zola
 
 jobs:
   build_and_deploy_job:

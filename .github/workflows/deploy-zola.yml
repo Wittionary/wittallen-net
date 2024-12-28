@@ -30,7 +30,7 @@ jobs:
         id: check_index
         uses: andstor/file-existence-action@v3
         with:
-          files: "/public/index.html"
+          files: "public/index.html"
           fail: true
 
       - name: Azure SWA Deploy

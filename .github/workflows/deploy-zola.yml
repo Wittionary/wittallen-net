@@ -19,17 +19,17 @@ jobs:
         with:
           submodules: true
 
+      - name: zola-build
+        uses: knzai/zola-cli@build
+        with:
+          root: wittallen-com
+
       # SWA config is required at `output_location` - https://learn.microsoft.com/en-us/azure/static-web-apps/configuration#file-location
       - name: copy SWA config
         uses: canastro/copy-file-action@master
         with:
           source: "staticwebapp.config.json"
-          target: "wittallen-com/public/staticwebapp.config.json"
-
-      - name: zola-build
-        uses: knzai/zola-cli@build
-        with:
-          root: wittallen-com
+          target: "wittallen-com/public/staticwebapp.config.json"  
 
       - name: 'Check File Existence'
         id: check_index

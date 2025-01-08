@@ -35,7 +35,7 @@ jobs:
         id: check_index
         uses: andstor/file-existence-action@v3
         with:
-          files: "public/index.html, wittallen-com/public/staticwebapp.config.json"
+          files: "public/index.html, wittallen-com/public/staticwebapp2.config.json"
           fail: true
 
       # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig

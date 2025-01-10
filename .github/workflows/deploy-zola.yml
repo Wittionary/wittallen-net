@@ -23,6 +23,7 @@ jobs:
         uses: knzai/zola-cli@build
         with:
           root: wittallen-com
+          output-dir: wittallen-com/public/
 
       # SWA config is required at `output_location` - https://learn.microsoft.com/en-us/azure/static-web-apps/configuration#file-location
       # - name: copy SWA config
@@ -37,10 +38,6 @@ jobs:
           ls public/  
           ls wittallen-com/public/
           cp "staticwebapp.config.json" "wittallen-com/public/staticwebapp.config.json"
-          #cp "staticwebapp.config.json" "wittallen-com/about/staticwebapp.config.json" -f
-          cp "staticwebapp.config.json" "wittallen-com/blog/staticwebapp.config.json" -f
-          #cp "staticwebapp.config.json" "wittallen-com/index-original/staticwebapp.config.json" -f
-          cp "staticwebapp.config.json" "wittallen-com/notes/staticwebapp.config.json" -f
 
       - name: 'Check File Existence'
         id: check_index

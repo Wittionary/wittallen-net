@@ -25,17 +25,21 @@ jobs:
           root: wittallen-com
 
       # SWA config is required at `output_location` - https://learn.microsoft.com/en-us/azure/static-web-apps/configuration#file-location
-      - name: copy SWA config
-        uses: canastro/copy-file-action@master
-        with:
-          source: "staticwebapp.config.json"
-          target: "wittallen-com/public/blog/staticwebapp.config.json"  
+      # - name: copy SWA config
+      #   uses: canastro/copy-file-action@master
+      #   with:
+      #     source: "staticwebapp.config.json"
+      #     target: "wittallen-com/public/blog/staticwebapp.config.json"  
+
+      - name: copy SWA config (bash)
+        run: |
+          cp "staticwebapp.config.json" "wittallen-com/public/staticwebapp.config.json"
 
       - name: 'Check File Existence'
         id: check_index
         uses: andstor/file-existence-action@v3
         with:
-          files: "public/index.html, wittallen-com/public/blog/staticwebapp.config.json"
+          files: "public/index.html, wittallen-com/public/staticwebapp.config.json"
           fail: true
 
       # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig

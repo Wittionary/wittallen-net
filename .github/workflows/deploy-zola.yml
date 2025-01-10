@@ -35,9 +35,6 @@ jobs:
 
       - name: copy SWA config (bash)
         run: |
-          ls
-          ls public/  
-          ls wittallen-com/public/
           cp "staticwebapp.config.json" "wittallen-com/public/staticwebapp.config.json"
 
       - name: 'Check File Existence'

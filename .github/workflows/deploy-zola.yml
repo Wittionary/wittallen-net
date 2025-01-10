@@ -23,19 +23,18 @@ jobs:
         uses: knzai/zola-cli@build
         with:
           root: wittallen-com
-          output-dir: wittallen-com/public/
           force: true # The anemone theme dumps stuff there by default
 
       # SWA config is required at `output_location` - https://learn.microsoft.com/en-us/azure/static-web-apps/configuration#file-location
       - name: copy SWA config
         run: |
-          cp "staticwebapp.config.json" "wittallen-com/public/staticwebapp.config.json"
+          cp "staticwebapp.config.json" "public/"
 
       - name: 'Check File Existence'
         id: check_index
         uses: andstor/file-existence-action@v3
         with:
-          files: "wittallen-com/public/index.html, wittallen-com/public/staticwebapp.config.json"
+          files: "public/index.html, public/staticwebapp.config.json"
           fail: true
 
       # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
@@ -46,9 +45,9 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_HILL_072F92210 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"          
-          app_location: "wittallen-com/public/" # App source code path
+          app_location: "public/" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "wittallen-com/public/" # Built app content directory - optional
+          output_location: "public/" # Built app content directory - optional
           skip_app_build: true
 
   close_pull_request_job:

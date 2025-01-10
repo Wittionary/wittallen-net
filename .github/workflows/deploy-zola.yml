@@ -24,6 +24,7 @@ jobs:
         with:
           root: wittallen-com
           output-dir: wittallen-com/public/
+          force: true # The anemone theme dumps stuff there by default
 
       # SWA config is required at `output_location` - https://learn.microsoft.com/en-us/azure/static-web-apps/configuration#file-location
       # - name: copy SWA config

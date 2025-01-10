@@ -34,9 +34,9 @@ jobs:
       - name: copy SWA config (bash)
         run: |
           cp "staticwebapp.config.json" "wittallen-com/public/staticwebapp.config.json"
-          cp "staticwebapp.config.json" "wittallen-com/about/staticwebapp.config.json"
+          #cp "staticwebapp.config.json" "wittallen-com/about/staticwebapp.config.json"
           cp "staticwebapp.config.json" "wittallen-com/blog/staticwebapp.config.json"
-          cp "staticwebapp.config.json" "wittallen-com/index-original/staticwebapp.config.json"
+          #cp "staticwebapp.config.json" "wittallen-com/index-original/staticwebapp.config.json"
           cp "staticwebapp.config.json" "wittallen-com/notes/staticwebapp.config.json"
 
       - name: 'Check File Existence'

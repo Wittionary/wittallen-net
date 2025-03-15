@@ -19,9 +19,15 @@ taxonomies = [
 highlight_code = true
 
 [link_checker]
+internal_level = "error"
 [slugify]
 [search]
 [translations]
 [languages]
 [extra]
 # Put all your custom variables here
+
+# header_nav = [
+  # { url = "/", name_en = "/home/" },
+  # { url = "/blog", name_en = "/blog/" }
+# ]

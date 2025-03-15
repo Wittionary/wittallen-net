@@ -1,6 +1,7 @@
 +++
 title = "Practical Monitoring"
 [taxonomies]
+  tags = ["monitoring", "book"]
 [extra]
   toc = false
 +++

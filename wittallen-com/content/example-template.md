@@ -134,5 +134,5 @@ first para
 
 Fusce non velit cursus ligula mattis convallis vel at metus. Sed pharetra tellus massa, non ele
 
-### [middle](#the-middle)
+### [the middle](#the-middle)
 middle paragraph

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ section.title }}</h1>
+
+{{ section.content | safe }}
+
+{% if paginator %}
+{% set pages = paginator.pages %}
+{% else %}
+{% set pages = section.pages %}
+{% endif %}
+
+{% for year, pages in section.pages | group_by(attribute="year") %}
+<h2 class="archive-year">{{ year }}</h2>
+<ul class="title-list">
+{% for page in pages %}
+  <li>
+    <a href="{{ page.permalink | safe }}">{% if page.date %}{{ page.date }} - {% endif %}{{ page.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{% if paginator %}
+<div class="accent-data">{% if paginator.previous %}<a href="{{ paginator.first }}">⥶</a> &nbsp <a href="{{ paginator.previous }}"><</a>{% endif %} &nbsp {{ paginator.current_index }} / {{ paginator.number_pagers }} &nbsp {% if paginator.next %}<a href="{{ paginator.next }}">></a> &nbsp <a href="{{ paginator.last }}">⥸</a>{% endif %}</div>
+{% endif %}
+{% endblock content %}

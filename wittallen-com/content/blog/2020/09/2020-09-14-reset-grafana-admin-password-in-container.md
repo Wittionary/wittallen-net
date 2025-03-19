@@ -1,5 +1,6 @@
 +++
 title = "Reset Grafana admin password in container"
+date = 2020-09-14
 [taxonomies]
   tags = ["grafana", "docker"]
 [extra]

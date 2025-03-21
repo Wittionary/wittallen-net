@@ -6,7 +6,72 @@
             "headers": {
                 "cache-control": "max-age=15770000"
             }
-        }
+        },
+        {
+            "route": "/reset-grafana-admin-password-in-container*",
+            "redirect": "/blog/2020/09/reset-grafana-admin-password-in-container/",
+            "statusCode": 301
+        },
+        {
+            "route": "/wall-of-knowledge*",
+            "redirect": "/blog/2019/04/wall-of-knowledge/",
+            "statusCode": 301
+        },
+        {
+            "route": "/practical-monitoring*",
+            "redirect": "/blog/2018/12/practical-monitoring/",
+            "statusCode": 301
+        },
+        {
+            "route": "/reflection*",
+            "redirect": "/blog/2018/08/reflection/",
+            "statusCode": 301
+        },
+        {
+            "route": "/m-momentum*",
+            "redirect": "/blog/2018/08/m-momentum/",
+            "statusCode": 301
+        },
+        {
+            "route": "/momentum*",
+            "redirect": "/blog/2018/07/momentum/",
+            "statusCode": 301
+        },
+        {
+            "route": "/the-skill*",
+            "redirect": "/blog/2015/06/the-skill/",
+            "statusCode": 301
+        },
+        {
+            "route": "/restart*",
+            "redirect": "/blog/2014/12/restart/",
+            "statusCode": 301
+        },
+        {
+            "route": "/the-x-effect*",
+            "redirect": "/blog/2014/12/the-x-effect/",
+            "statusCode": 301
+        },
+        {
+            "route": "/recollection*",
+            "redirect": "/blog/2014/07/recollection/",
+            "statusCode": 301
+        },
+        {
+            "route": "/habit-forming*",
+            "redirect": "/blog/2014/02/habit-forming/",
+            "statusCode": 301
+        },
+        {
+            "route": "/genesis*",
+            "redirect": "/blog/2013/02/genesis/",
+            "statusCode": 301
+        },
+        {
+            "route": "/the-drive-home*",
+            "redirect": "/blog/2012/06/the-drive-home/",
+            "statusCode": 301
+        }        
     ],
     "responseOverrides": {
         "404": {

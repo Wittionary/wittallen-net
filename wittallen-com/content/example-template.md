@@ -13,17 +13,6 @@ Etiam vulputate nibh in magna feugiat viverra. Donec ultt nunc dolor, lacinia at
 
 {{ img(id="https://uploads-ssl.webflow.com/5ff0b3326e5782a256714165/638b6f3a3d8d2e6bad1cb03b_Random22.1.jpg", alt="xfx6800xt", class="textCenter") }}
 
-## 2022-10-27 💢
-facilisis sapien, quis faucibus leo urna ut diam. Etiam eu dolor 
-
-## Webrings
-
-Join our webrings and explore more:
-
-- 🈯 {{ webring(prev="#", webring="#", webringName="Random Webring", next="#") }}
-- 🎶 {{ webring(prev="#", webring="#", webringName="Another Webring", next="#") }}
-
-
 ## Overview
 
 anemone theme is designed to provide a nearly no-JavaScript, efficient, and minimalist experience for your website. Embracing simplicity, the theme focuses on content and readability, ensuring a seamless user experience without unnecessary distractions.
@@ -51,15 +40,7 @@ Browse our posts by tags:
 
 Lorem ipsum[^1] dolor sit amet.
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
-
-### Lists
-
-Unordered:
-
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
+Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus 
 
 ### Tables
 
@@ -76,19 +57,6 @@ Now a table:
 {{ img(id="https://uploads-ssl.webflow.com/5ff0b3326e5782a256714165/638b6f3a3d8d2e6bad1cb03b_Random22.1.jpg", alt="theme logo") }}
 
 random image of a dog[^4]
-
-### Multilanguage support
-- 🥣 [This site but in french (only this page and the homepage is translated)](/fr)
-
----
-
-[^1]: this is a footnote. It should highlight if you click on the corresponding superscript number.
-
-[^2]: hey there
-
-[^3]: this is another footnote.
-
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere.
 
 ## blog post frontmatter/TOML
 ```toml
@@ -109,3 +77,13 @@ Fusce non velit cursus ligula mattis convallis vel at metus. Sed pharetra tellus
 
 ### [the middle](#the-middle)
 middle paragraph
+
+---
+
+[^1]: this is a footnote. It should highlight if you click on the corresponding superscript number.
+
+[^2]: hey there
+
+[^3]: this is another footnote.
+
+[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere.

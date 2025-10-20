@@ -1,5 +1,6 @@
-Using [Zola](https://github.com/getzola/zola) and Simple CSS to make a pretty, FAST site that isn't a pain to manage or update.
+Using [Zola](https://github.com/getzola/zola) and ~~Simple~~ CSS to make a pretty, FAST site that isn't a pain to manage or update.
 🤞
+Experimenting with htmx.
 
 ### contributing
 1. install `zola`

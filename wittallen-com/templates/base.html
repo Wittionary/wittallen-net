@@ -23,12 +23,13 @@
         </script>
         <!-- CSP: sha256-0V6m47JWACTilnctut5yIfxbC4vXGrk854LPl9jXD/s= -->
         <script>
-            const htmxPolicy = window.trustedTypes.createPolicy('htmx-witt', {
-                createHTML: input => input,
-                insertAdjacentHTML: input => input,
-            });
+            if (window.trustedTypes && window.trustedTypes.createPolicy) {
+                window.trustedTypes.createPolicy('htmx-witt', {
+                    createHTML: (string) => string,
+                    insertAdjacentHTML: input => input,
+                });
+            }
         </script>
-
 
         <!-- Add favicon with appropriate sizes -->
         <link rel="icon" href="{{ config.base_url }}/{{ config.extra.favicon | default(value='favicon.ico') }}">

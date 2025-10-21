@@ -23,11 +23,10 @@
         </script>
         <!-- CSP: sha256-ElQoAFWMKNL9WUjnr1oII1SwQQZFqwFovMDMbT5qY8Y= -->
         <script>
-            if (window.trustedTypes && !window.trustedTypes.defaultPolicy) {
-                window.trustedTypes.createPolicy('htmx-witt', {
-                createHTML: input => input
-                });
-            }
+            const htmxPolicy = window.trustedTypes.createPolicy('htmx-witt', {
+                createHTML: input => input,
+                insertAdjacentHTML: input => input,
+            });
         </script>
 
 

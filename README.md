@@ -16,3 +16,8 @@ zola serve
 ### TODO
 - [ ] add performance scores to README
 - [ ] add accessibility scores to README
+- [ ] once `trusted-types` are more widely supported, enable it for htmx
+```
+# e.g.
+require-trusted-types-for 'script'; trusted-types htmx-witt-policy;
+```

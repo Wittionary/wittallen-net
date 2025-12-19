@@ -12,4 +12,4 @@ Witt Allen. I work on a site reliability engineering team as a DevOps Platform e
 I also enjoy weight-lifting, hiking, backpacking, ukelele-ing, and, occassionally, D&D.
 
 ## contact
-Details moved to its own page _riiiiight_ <a rel="me" href="/contact">here</a>.
+Details moved to its own page _riiiiight_ <a rel="me" href="/contact/">here</a>.

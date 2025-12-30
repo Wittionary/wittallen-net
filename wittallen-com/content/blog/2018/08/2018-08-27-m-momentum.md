@@ -1,6 +1,5 @@
 +++
 title = "M = Momentum"
-author = "Witt Allen"
 [taxonomies]
 [extra]
   toc = false

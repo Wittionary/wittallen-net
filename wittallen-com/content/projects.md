@@ -22,3 +22,11 @@ This project is currently in a _working_ state. It's usable by anyone, but, like
 Since I don't have a full blog post on the topic yet, I'll offer my brief, brief thoughts on NixOS: stay far, far away from it unless you really want your hobby to be fixing your computer, not using it. It's a barefoot, uphill battle on LEGO. You are a blinded Sisyphus and each brief victory is overshadowed by the boulder of esoteric linux knowledge careening into the valley of indecipherable error messages.
 
 Last updated: 2025-12-16
+
+## [personal website](#personal-website)
+
+[repository link](https://github.com/Wittionary/wittallen-net)
+
+This very website you're viewing right now!
+
+Last updated: 2025-12-31

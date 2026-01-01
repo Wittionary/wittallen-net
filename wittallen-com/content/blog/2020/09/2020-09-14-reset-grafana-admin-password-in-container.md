@@ -20,4 +20,4 @@ Cheers!
 
 ---
 
-[^1]: [How to reset admin password in Grafana container](https://blog.sleeplessbeastie.eu/2019/12/11/how-to-reset-admin-password-in-grafana-container/)
+[^1]: [How to reset admin password in Grafana container](https://sleeplessbeastie.eu/2019/12/11/how-to-reset-admin-password-in-grafana-container/)

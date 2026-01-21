@@ -4,7 +4,7 @@ title = "Witt Allen 💾"
 
 # I'm Witt 💾
 
-Witt Allen. I work on a site reliability engineering team as a DevOps Platform engineer. During the day, I spend my time
+<span itempscope><span itemprop="name">Witt Allen</span></span>. I work on a site reliability engineering team as a DevOps Platform engineer. During the day, I spend my time
 - automating repetitive tasks with various tools
 - building monitoring to increase systems observability
 - engineering systems to be resilient

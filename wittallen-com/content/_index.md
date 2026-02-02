@@ -9,4 +9,4 @@ title = "Witt Allen 💾"
 - building monitoring to increase systems observability
 - engineering systems to be resilient
 
-I also enjoy weight-lifting, hiking, backpacking, ukelele-ing, and, occassionally, D&D..
+I also enjoy weight-lifting, hiking, backpacking, ukelele-ing, and, occassionally, D&D.

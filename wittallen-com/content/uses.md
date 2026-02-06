@@ -15,6 +15,7 @@ headphones
 
 pens
 - Pilot G-2 10
+- Pentel GFKP brush pen
 
 pencil
 - Rotring 600 Mechanical Pencil, 0.7 mm, Silver

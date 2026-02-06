@@ -28,6 +28,12 @@ Pixel 6 (Android)
 
 Yubikey
 
+## peripherals
+Mistel Barocco MD770
+- 65(?)-key split-staggered keyboard
+
+logitech G502 hero wired mouse
+
 ## software
 espanso for text expansion
 - Quickly write generic emails, chats, common meeting responses.

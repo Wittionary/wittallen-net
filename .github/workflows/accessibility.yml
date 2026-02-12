@@ -8,7 +8,7 @@ on:
   pull_request:
 
 jobs:
-  accessibility:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -30,13 +30,21 @@ jobs:
           root: wittallen-com
           force: true # The anemone theme dumps stuff there by default
 
+  run:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: zola-serve
         run: |
           cd wittallen-com/
           zola serve
 
+  accessibility:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Run accessibility test
-        run: pa11y https://127.0.0.1:1111 --timeout 60000 #--reporter html > pa11y-report.html
+        run: pa11y https://127.0.0.1:1111 --timeout 60000 --wait 30000 #--reporter html > pa11y-report.html
 
 
       # - name: Upload report

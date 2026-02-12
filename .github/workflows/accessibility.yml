@@ -1,0 +1,30 @@
+name: Accessibility Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  accessibility:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Install Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Install Pa11y
+        run: npm install -g pa11y
+
+      - name: Run accessibility test
+        run: pa11y https://wittallen.net -reporter html > pa11y-report.html
+
+      - name: Upload report
+        uses: actions/upload-artifact@v6
+        with:
+          name: pa11y-report
+          path: pa11y-report.html

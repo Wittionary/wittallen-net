@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - .github/workflows/accessibility.yml
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
@@ -15,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           submodules: true
 
@@ -30,7 +32,7 @@ jobs:
         run: |
           cp "staticwebapp.config.json" "public/"
 
-      - name: 'Check File Existence'
+      - name: "Check File Existence"
         id: check_index
         uses: andstor/file-existence-action@v3
         with:
@@ -44,7 +46,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_HILL_072F92210 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
-          action: "upload"          
+          action: "upload"
           app_location: "public/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "public/" # Built app content directory - optional

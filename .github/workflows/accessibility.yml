@@ -21,10 +21,11 @@ jobs:
         run: npm install -g pa11y
 
       - name: Run accessibility test
-        run: pa11y https://wittallen.net -reporter html > pa11y-report.html
+        run: pa11y https://wittallen.net #-reporter html > pa11y-report.html
 
-      - name: Upload report
-        uses: actions/upload-artifact@v6
-        with:
-          name: pa11y-report
-          path: pa11y-report.html
+
+      # - name: Upload report
+      #   uses: actions/upload-artifact@v6
+      #   with:
+      #     name: pa11y-report
+      #     path: pa11y-report.html

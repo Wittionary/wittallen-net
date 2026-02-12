@@ -1,16 +1,16 @@
-{% extends "base.html" %}
-
-{% block content %}
+{% extends "base.html" %} {% block content %}
 <h1 class="title">
-    {% set titles = ["whoops,", "typo?"] %}
-    {{ titles | nth(n=get_random(end=2)) }}
- 404
+    {% set titles = ["whoops,", "typo?"] %} {{ titles | nth(n=get_random(end=2))
+    }} 404
 </h1>
-<p>Hmm. Looks like that page is no longer valid. If there was a typo in the URL, maybe it got corrected.
-<br /><br />
-Maybe try the <a href="/">home page</a>?
+<p>
+    Hmm. Looks like that page is no longer valid. If there was a typo in the
+    URL, maybe it got corrected. <br /><br />
+    Maybe try the <a href="/">home page</a>?
 </p>
 {% endblock content %}
-
-
-
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        plausible("404");
+    });
+</script>

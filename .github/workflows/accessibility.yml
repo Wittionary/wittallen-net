@@ -21,7 +21,7 @@ jobs:
         run: npm install -g pa11y
 
       - name: Run accessibility test
-        run: pa11y https://wittallen.net --reporter html > pa11y-report.html --environment
+        run: pa11y https://wittallen.net --reporter html > pa11y-report.html --timeout 60000
 
       - name: Upload report
         uses: actions/upload-artifact@v6

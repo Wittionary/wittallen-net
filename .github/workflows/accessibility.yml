@@ -21,11 +21,29 @@ jobs:
         run: npm install -g pa11y
 
       - name: Run accessibility test
-        run: pa11y https://wittallen.net #-reporter html > pa11y-report.html
+        run: pa11y https://wittallen.net --reporter html > pa11y-report.html --environment
 
+      - name: Upload report
+        uses: actions/upload-artifact@v6
+        with:
+          name: pa11y-report
+          path: pa11y-report.html
 
-      # - name: Upload report
-      #   uses: actions/upload-artifact@v6
+      # - uses: a11ywatch/github-action@v2.1.10
       #   with:
-      #     name: pa11y-report
-      #     path: pa11y-report.html
+      #     WEBSITE_URL: https://wittallen.net
+      #     # SITE_WIDE: true
+      #     # SUBDOMAINS: true
+      #     # TLD: false
+      #     SITEMAP: true
+      #     FAIL_ERRORS_COUNT: 15
+      #     LIST: true
+      #     FIX: false
+      #     UPGRADE: false
+      #     UPLOAD: true
+      #     COMPUTER_VISION_SUBSCRIPTION_KEY: ${{ secrets.COMPUTER_VISION_SUBSCRIPTION_KEY }}
+      #     COMPUTER_VISION_ENDPOINT: ${{ secrets.COMPUTER_VISION_ENDPOINT }}
+      #   env:
+      #     DEFAULT_RUNNERS: htmlcs,axe
+      #     PAGEMIND_IGNORE_WARNINGS: true
+      #     AI_DISABLED: false

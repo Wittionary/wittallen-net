@@ -8,6 +8,24 @@
       }
     },
     {
+      "route": "/*/*.css",
+      "headers": {
+        "cache-control": "public, max-age=604800"
+      }
+    },
+    {
+      "route": "/*/*.js",
+      "headers": {
+        "cache-control": "public, max-age=604800"
+      }
+    },
+    {
+      "route": "/*.ico",
+      "headers": {
+        "cache-control": "public, max-age=604800"
+      }
+    },
+    {
       "route": "/reset-grafana-admin-password-in-container*",
       "redirect": "/blog/2020/09/reset-grafana-admin-password-in-container/",
       "statusCode": 301
@@ -82,7 +100,7 @@
     "Access-Control-Allow-Origin": "https://plausible.io",
     "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
     "content-security-policy": "default-src 'self'; style-src 'self' https://raw.githack.com/Speyll/suCSS/main/reset-min.css https://raw.githack.com/Speyll/suCSS/main/suCSS-min.css 'unsafe-inline'; script-src 'self' https://plausible.io https://unpkg.com/htmx.org@2.0.7/dist/htmx.min.js 'sha256-k9lYsp7+fNFyaDn+ZMMEhclJujEb10N/EQ0TioAholw='; connect-src 'self' https://plausible.io; img-src 'self' data:; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com data:; upgrade-insecure-requests",
-    "permissions-policy": "microphone=(), camera=(), geolocation=(), display-capture=()",
+    "permissions-policy": "microphone=(), camera=(), geolocation=(), display-capture=(), accelerometer=()",
 
     "Cross-Origin-Embedder-Policy-Report-Only": "require-corp",
     "Cross-Origin-Opener-Policy-Report-Only": "same-origin",

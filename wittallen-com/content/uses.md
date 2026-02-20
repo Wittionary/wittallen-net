@@ -24,7 +24,11 @@ Field Notes
 - Analog notes. So satisfying.
 
 Pixel 6 (Android)
-- I'm cooling off on Google. This device has been going strong for me, but, week by week, I grow progressively dismayed and horrified by surveillance capitalism and the non-separation of Tech and State. I intend on trying out GrapheneOS on a newer Pixel model within the next year or so.
+- I'm cooling off on Google. This device has been going strong for me, but, week by week, I grow progressively dismayed and horrified by surveillance capitalism and the non-separation of Tech and State. ~~I intend on trying out GrapheneOS on a newer Pixel model within the next year or so.~~
+
+Pixel 9a (GrapheneOS)
+- I'm slowly moving trusted apps over to this device, scrutinizing what I really need, and prioritizing FOSS alternatives to Big Tech options. Current challenge: music
+- The battery life on this thing is amazing. I haven't charged it in 9 days and it's only at 21%.
 
 Yubikey
 
@@ -45,7 +49,8 @@ obsidian
 - Digital notes and persistent diagrams through its Canvas feature. Previously used Simplenote and the green one with an elephant mascot.
 - I try to do as much here as possible.
 
-anki
+~~anki~~
+- Anki is great when I use it, but I haven't studied in well over a year. It's worth a mention. Though I could make more use of it regularly, I don't.
 
 spotify
 

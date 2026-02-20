@@ -8,13 +8,13 @@
       }
     },
     {
-      "route": "/*/*.css",
+      "route": "/*.css",
       "headers": {
         "cache-control": "public, max-age=604800"
       }
     },
     {
-      "route": "/*/*.js",
+      "route": "/*.js",
       "headers": {
         "cache-control": "public, max-age=604800"
       }

@@ -28,6 +28,7 @@ jobs:
           repository: wittionary/obsidian-vaults
           pattern: blog-posts*
           path: public/blog-test/
+          run-id: 22382467548
 
       - name: List contents
         run: ls -R public/blog-test/

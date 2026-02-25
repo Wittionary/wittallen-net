@@ -22,7 +22,7 @@ jobs:
           submodules: true
 
       - name: Download blog posts artifact
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v7
         with:
           github-token: ${{ secrets.BLOG_POST_READER_TOKEN }}
           repository: wittionary/obsidian-vaults

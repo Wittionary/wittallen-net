@@ -37,16 +37,16 @@ jobs:
           github-token: ${{ secrets.BLOG_POST_READER_TOKEN }}
           repository: wittionary/obsidian-vaults
           pattern: blog-posts*
-          # path: public/blog-test/
+          # path: wittallen-com/content/blog-test/
           run-id: ${{ steps.get-blog-posts-run.outputs.run_id }}
 
       - name: Extract blog posts
         run: |
-          mkdir public/blog-test/
-          tar -xzf blog-posts.tar.gz -C public/blog-test/
+          mkdir $GITHUB_WORKSPACE/wittallen-com/content/blog-test/
+          tar -xzf blog-posts.tar.gz -C $GITHUB_WORKSPACE/wittallen-com/content/blog-test/
 
       - name: List contents
-        run: ls -R public/blog-test/
+        run: ls -R content/blog-test/
 
       - name: zola-build
         uses: knzai/zola-cli@build

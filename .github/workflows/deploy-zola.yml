@@ -21,14 +21,27 @@ jobs:
         with:
           submodules: true
 
+      - name: Get latest run ID
+        id: get-blog-posts-run
+        run: |
+          RUN_ID=$(gh api \
+            repos/wittionary/obsidian-vaults/actions/workflows/package-blog-posts.yml/runs \
+            -q '.workflow_runs[0].id')
+          echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.BLOG_POST_READER_TOKEN }}
+
       - name: Download blog posts artifact
         uses: actions/download-artifact@v7
         with:
           github-token: ${{ secrets.BLOG_POST_READER_TOKEN }}
           repository: wittionary/obsidian-vaults
           pattern: blog-posts*
-          path: public/blog-test/
-          run-id: 22382467548
+          # path: public/blog-test/
+          run-id: ${{ steps.get-blog-posts-run.outputs.run_id }}
+
+      - name: Extract blog posts
+        run: tar -xzf blog-posts.tar.gz -C public/blog-test/
 
       - name: List contents
         run: ls -R public/blog-test/

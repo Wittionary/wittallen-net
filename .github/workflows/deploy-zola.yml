@@ -41,7 +41,9 @@ jobs:
           run-id: ${{ steps.get-blog-posts-run.outputs.run_id }}
 
       - name: Extract blog posts
-        run: tar -xzf blog-posts.tar.gz -C public/blog-test/
+        run: |
+          mkdir public/blog-test/
+          tar -xzf blog-posts.tar.gz -C public/blog-test/
 
       - name: List contents
         run: ls -R public/blog-test/

@@ -46,7 +46,7 @@ jobs:
           tar -xzf blog-posts.tar.gz -C $GITHUB_WORKSPACE/wittallen-com/content/blog-test/
 
       - name: List contents
-        run: ls -R content/blog-test/
+        run: ls -R $GITHUB_WORKSPACE/wittallen-com/content/blog-test/
 
       - name: zola-build
         uses: knzai/zola-cli@build

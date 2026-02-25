@@ -26,7 +26,7 @@ jobs:
         with:
           github-token: ${{ secrets.BLOG_POST_READER_TOKEN }}
           repository: wittionary/obsidian-vaults
-          name: blog-posts
+          pattern: blog-posts*
           path: public/blog-test/
 
       - name: List contents

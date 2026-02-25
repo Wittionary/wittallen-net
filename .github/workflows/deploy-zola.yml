@@ -21,6 +21,17 @@ jobs:
         with:
           submodules: true
 
+      - name: Download blog posts artifact
+        uses: actions/download-artifact@v8
+        with:
+          github-token: ${{ secrets.BLOG_POST_READER_TOKEN }}
+          repository: wittionary/obsidian-vaults
+          name: blog-posts
+          path: public/blog-test/
+
+      - name: List contents
+        run: ls -R public/blog-test/
+
       - name: zola-build
         uses: knzai/zola-cli@build
         with:

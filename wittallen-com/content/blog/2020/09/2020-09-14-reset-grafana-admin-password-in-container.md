@@ -4,7 +4,9 @@ date = 2020-09-14
 [taxonomies]
   tags = ["grafana", "docker"]
 [extra]
-  toc = false
+toc = false
+silly_task = "shake that laffy taffy"
+silly_duration = "3 min 48 secs"
 +++
 
 I came across this handy article[^1] today while attempting to resolve the very issue in the title. Short, unambiguous, and to-the-point, this post by Milosz Galazka wins my "handy dandy article of the week" award. _I'll work on the title._

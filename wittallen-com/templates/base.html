@@ -47,11 +47,15 @@
         </nav>
 
         <main>
+
             {% block content %}{% endblock %}
         </main>
 
         <footer>
             {% include "footer.html" %}
+            {% if page.extra.silly_task %}
+              <span>It takes {{ page.extra.silly_duration }} to {{ page.extra.silly_task }}</span>
+            {% endif %}
         </footer>
 
         <!-- Move JS to end of body and add defer -->

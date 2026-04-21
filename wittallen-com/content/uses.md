@@ -4,9 +4,23 @@ aliases: ["toolbox"]
 ---
 
 Non-comprehensive.
+
 What qualifies as a tool?
+
 What is invaluable to me?
+
 What it does, when I use it, how it helps me, the value it adds.
+
+## analog
+pens
+- Pilot G-2 10, black ink, clicky
+- Pentel GFKP brush pen
+
+pencil
+- Rotring 600 Mechanical Pencil, 0.7 mm, Silver
+
+[Field Notes](https://fieldnotesbrand.com/#products) memo books, 3.5x5.5"
+- Analog notes. So satisfying. So helpful!
 
 ## hardware
 headphones
@@ -29,17 +43,6 @@ Mistel Barocco MD770
 - 65(?)-key split-staggered keyboard w/ RGB
 
 logitech G502 hero wired mouse
-
-## analog
-pens
-- Pilot G-2 10, black ink, clicky
-- Pentel GFKP brush pen
-
-pencil
-- Rotring 600 Mechanical Pencil, 0.7 mm, Silver
-
-[Field Notes](https://fieldnotesbrand.com/#products) memo books, 3.5x5.5"
-- Analog notes. So satisfying. So helpful!
 
 ## software
 [espanso](https://espanso.org/)
@@ -76,4 +79,3 @@ terminal + extensions
 - Which task feels biggest in my mind?
 - What's the question here? If this seems like it's taking too long, is there a workaround?
 - Am I holding onto an idealized end state? Can I let go of it to make headway on this?
-- GTD

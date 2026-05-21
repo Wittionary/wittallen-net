@@ -5,6 +5,7 @@ title = "Witt Allen 💾"
 # I'm Witt 💾
 
 <span itemscope itemtype="https://schema.org/Person"><span itemprop="name">Witt Allen</span>. I work on a platform services team as a <span itemprop="jobTitle">DevOps Platform engineer</span></span>. During the day, I spend my time
+- architecting and building scalable and maintainable solutions
 - automating repetitive tasks with various tools
   - Pulumi, Azure DevOps, Github Enterprise
 - building monitoring to increase systems observability

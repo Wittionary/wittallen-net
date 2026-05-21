@@ -15,7 +15,7 @@ The desired end state.
 <a itemprop="codeRepository" href="https://github.com/Wittionary/niche-os">repository link</a>
 
 <span itemprop="description">
-    <b><span itemprop="name">niche-os</span></b> is my <span itemprop="programmingLanguage">nix</span> OS (aka NixOS) configuration. If you're not familiar with what nix OS is, it's a complicated way of setting up a computer the exact same way each time. So, if I got a brand new laptop, all I would need to do is install the basic nix OS, copy my **niche-os** project to it, run a few commands, and I'd have the same setup on it as I do on two or three of my other computers.
+<b><span itemprop="name">niche-os</span></b> is my <span itemprop="programmingLanguage">nix</span> OS (aka NixOS) configuration. If you're not familiar with what nix OS is, it's a complicated way of setting up a computer the exact same way each time. So, if I got a brand new laptop, all I would need to do is install the basic nix OS, copy my **niche-os** project to it, run a few commands, and I'd have the same setup on it as I do on two or three of my other computers.
 
 My motivation behind diving into this was I was tired of setting up a linux machine and then being afraid of making changes to it and forgetting how I set it up and breaking it, wasting a bunch of time and effort. because there are a hundred little configuration files.
 
@@ -30,3 +30,16 @@ Since I don't have a full blog post on the topic yet, I'll offer my brief, brief
 [repository link](https://github.com/Wittionary/wittallen-net)
 
 This very website you're viewing right now!
+
+<article itemscope itemtype="https://schema.org/SoftwareSourceCode">
+
+## [surfboard](#surfboard)
+
+<a itemprop="codeRepository" href="https://github.com/Wittionary/surfboard">repository link</a>
+
+<span itemprop="description">
+Status: working, with quirks (quirking). Needs a lot of documentation.
+
+<b><span itemprop="name">surfboard</span></b> is a lightweight, <span itemprop="programmingLanguage">Typescript</span> webapp for batch ticket creation in Azure DevOps Boards. Ticket contents are edited directly through YAML in your text editor or IDE of choice.
+</span>
+</article>

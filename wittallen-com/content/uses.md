@@ -1,7 +1,9 @@
----
-title: "uses"
-aliases: ["toolbox"]
----
++++
+title = "uses"
+aliases = ["toolbox"]
+[extra]
+silly_quip = "I am a very limited time-traveler; I can only move forward through time at a rate of 1 second per second."
++++
 
 These are things I use. Most of them bring me delight or satisfaction in using them, some are nerd signalling, and a couple I really hope you've got a system/tool that's better and you're willing to share with me :)
 

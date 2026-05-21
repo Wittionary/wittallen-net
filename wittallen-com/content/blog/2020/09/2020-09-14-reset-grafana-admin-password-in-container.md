@@ -5,8 +5,7 @@ date = 2020-09-14
   tags = ["grafana", "docker"]
 [extra]
 toc = false
-silly_task = "shake that laffy taffy"
-silly_duration = "3 min 48 secs"
+silly_quip = "It takes 3 min 48 secs to shake that laffy taffy"
 +++
 
 I came across this handy article[^1] today while attempting to resolve the very issue in the title. Short, unambiguous, and to-the-point, this post by Milosz Galazka wins my "handy dandy article of the week" award. _I'll work on the title._

@@ -27,7 +27,7 @@ These are things I use. Most of them bring me delight or satisfaction in using t
 
 ### peripherals
 - Mistel Barocco MD770
-  - 65(?)-key split-staggered keyboard w/ RGB
+  - 75% split-staggered keyboard w/ RGB
 - Logitech G502 Hero, wired mouse
 
 ## software
@@ -56,5 +56,3 @@ todoist
 
 ticktick
 - work task management
-
-

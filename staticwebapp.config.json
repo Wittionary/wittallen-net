@@ -26,6 +26,16 @@
       }
     },
     {
+      "route": "/rss.xml",
+      "redirect": "/blog/atom.xml",
+      "statusCode": 301
+    },
+    {
+      "route": "/atom.xml",
+      "redirect": "/blog/atom.xml",
+      "statusCode": 301
+    },
+    {
       "route": "/reset-grafana-admin-password-in-container*",
       "redirect": "/blog/2020/09/reset-grafana-admin-password-in-container/",
       "statusCode": 301
